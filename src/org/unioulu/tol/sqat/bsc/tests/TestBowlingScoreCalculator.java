@@ -2,12 +2,18 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
-
+import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 	
+	private Frame frame;
+	
+	@Before
+	public void setup(){
+		frame = new Frame(0,0);
+	}
 
 	@Test
 	public void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() {
