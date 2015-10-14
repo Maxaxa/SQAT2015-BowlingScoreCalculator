@@ -227,3 +227,5 @@ CompilationAction 1444826869111 BowlingGame.java
 CompilationAction 1444826869112 TestBowlingScoreCalculator.java
 CompilationAction 1444826880409 TestBowlingScoreCalculator.java
 EditAction 1444826890986 TestBowlingScoreCalculator.java 2993 8 42 7
+CompilationAction 1444826891103 TestBowlingScoreCalculator.java
+EditAction 1444826896571 TestBowlingScoreCalculator.java 2999 8 42 7
