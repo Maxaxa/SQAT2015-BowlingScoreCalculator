@@ -141,7 +141,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testIsStrikeWithFirstThrowIs3SecondThrowIs6_ReturnTrue(){
+	public void testIsStrikeWithFirstThrowIs3SecondThrowIs6_ReturnFalse(){
 		frame.setFirstThrow(3);
 		frame.setSecondThrow(6);
 		
@@ -156,6 +156,22 @@ public class TestBowlingScoreCalculator {
 		game.frames.get(0).setSecondThrow(0);
 		//System.out.println(game.frames.get(0).getFirstThrow());
 		assertEquals(94, game.score());
+	}
+	
+	@Test
+	public void testIsSpareWithFirstThrowIs1SecondThrowIs9_ReturnTrue(){
+		frame.setFirstThrow(1);
+		frame.setSecondThrow(9);
+		
+		assertEquals(true,frame.isSpare());
+	}
+	
+	@Test
+	public void testIsSpareWithFirstThrowIs3SecondThrowIs6_ReturnFalse(){
+		frame.setFirstThrow(3);
+		frame.setSecondThrow(6);
+		
+		assertEquals(false,frame.isSpare());
 	}
 	
 

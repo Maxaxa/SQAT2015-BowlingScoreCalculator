@@ -24,11 +24,14 @@ public class BowlingGame {
 	
 	public int score(){
 		int gameScore =0;
+		int counter = 0;
 		for(Frame frame: frames){
-			if(isStrike()){
-				
+			if(frame.isStrike()){
+				gameScore = gameScore + frame.score() + frames.get(counter+1).score();	
+			}else{
+				gameScore = gameScore + frame.score();
 			}
-			gameScore = gameScore + frame.score();
+			counter++;
 		}
 		return gameScore;
 	}
