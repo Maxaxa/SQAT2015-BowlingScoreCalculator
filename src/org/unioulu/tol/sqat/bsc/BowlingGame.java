@@ -10,7 +10,6 @@ public class BowlingGame {
 	
 	public BowlingGame(List<Frame> frames){
 		this.frames = frames;
-	
 		
 	}
 	
@@ -25,8 +24,8 @@ public class BowlingGame {
 	
 	public int score(){
 		int gameScore =0;
-		for(Frame f: frames){
-			frame.score();
+		for(Frame frame: frames){
+			gameScore = gameScore + frame.score();
 		}
 		return gameScore;
 	}
