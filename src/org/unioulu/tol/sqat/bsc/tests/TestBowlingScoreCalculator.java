@@ -3,12 +3,19 @@ package org.unioulu.tol.sqat.bsc.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() {
+
+		Frame frame = new Frame(2,4);
+		
+		int firstThrow = getFirstThrow();
+		
+		assertEquals(2, firstThrow);
+		
 	}
 
 }
