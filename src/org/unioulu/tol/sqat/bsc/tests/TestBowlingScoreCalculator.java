@@ -34,6 +34,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
 	}
+	
 
 	@Test
 	public void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() {
@@ -145,6 +146,13 @@ public class TestBowlingScoreCalculator {
 		frame.setSecondThrow(6);
 		
 		assertEquals(false,frame.isStrike());
+	}
+	@Test
+	public void testScoreWithStrike_Return10(){
+		frame.setFirstThrow(10);
+		frame.setSecondThrow(0);
+		
+		assertEquals(10,frame.score());
 	}
 
 }

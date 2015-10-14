@@ -325,3 +325,19 @@ UnitTestSessionAction 1444828480664 TestBowlingScoreCalculator OK
 RefactoringAction 1444828502100 TestBowlingScoreCalculator.java RENAME testIsStrikeWithFirstThrowIs1SecondThrowIs5_ReturnTrue()=>void testIsStrikeWithFirstThrowIs1SecondThrowIs6_ReturnTrue() METHOD
 RefactoringAction 1444828503621 TestBowlingScoreCalculator.java RENAME testIsStrikeWithFirstThrowIs1SecondThrowIs6_ReturnTrue()=>void testIsStrikeWithFirstThrowIs3SecondThrowIs6_ReturnTrue() METHOD
 EditAction 1444828503996 TestBowlingScoreCalculator.java 3480 13 55 11
+UnitTestCaseAction 1444828506841 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828506841 TestBowlingScoreCalculator.testIsStrikeWithFirstThrowIs3SecondThrowIs6_ReturnTrue OK
+RefactoringAction 1444828569709 TestBowlingScoreCalculator.java ADD List<Frame> frames FIELD
+RefactoringAction 1444828579763 TestBowlingScoreCalculator.java RENAME frames=>List<Frame> Strikeframes FIELD
+RefactoringAction 1444828582285 TestBowlingScoreCalculator.java RENAME Strikeframes=>List<Frame> StrikeFrames FIELD
+RefactoringAction 1444828620486 TestBowlingScoreCalculator.java REMOVE StrikeFrames FIELD
+RefactoringAction 1444828663150 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444828675172 TestBowlingScoreCalculator.java RENAME test=>void testScore FIELD
+RefactoringAction 1444828679194 TestBowlingScoreCalculator.java RENAME testScore=>void testScoreWith FIELD
+RefactoringAction 1444828682715 TestBowlingScoreCalculator.java RENAME testScoreWith=>void testScoreWithStrike FIELD
+RefactoringAction 1444828684245 TestBowlingScoreCalculator.java RENAME testScoreWithStrike=>void testScoreWithStrike() METHOD
+RefactoringAction 1444828688265 TestBowlingScoreCalculator.java RENAME testScoreWithStrike()=>void testScoreWithStrike_() METHOD
+RefactoringAction 1444828689286 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_()=>void testScoreWithStrike_Re() METHOD
+RefactoringAction 1444828690806 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Re()=>void testScoreWithStrike_Return() METHOD
+RefactoringAction 1444828691828 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Return()=>void testScoreWithStrike_Return10() METHOD
+EditAction 1444828718628 TestBowlingScoreCalculator.java 3636 14 58 12
