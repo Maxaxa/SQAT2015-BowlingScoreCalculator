@@ -17,6 +17,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(2, firstThrow);
 		
 	}
+	
 	@Test
 	public void testGetSecondThrowWithFirstThrowIs2AndSecondThrowIs4_Return4() {
 
@@ -27,5 +28,16 @@ public class TestBowlingScoreCalculator {
 		assertEquals(4, secondThrow);
 		
 	}
+	
+	@Test
+	public void testScoreWithFirstThrowIs2AndSecondThrowIs6_Return8(){
+		
+		Frame frame = new Frame(2,6);
+		
+		int score = frame.score();
+		
+		assertEquals(8, score);
+	}
+	
 
 }
