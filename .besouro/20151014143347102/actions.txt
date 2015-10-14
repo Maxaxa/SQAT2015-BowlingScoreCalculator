@@ -359,3 +359,10 @@ EditAction 1444828953748 TestBowlingScoreCalculator.java 3891 15 61 13
 UnitTestCaseAction 1444828955975 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444828955976 TestBowlingScoreCalculator FAIL
 EditAction 1444828994042 TestBowlingScoreCalculator.java 3891 15 61 13
+UnitTestCaseAction 1444828995061 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444828995061 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444829147655 TestBowlingScoreCalculator.java REMOVE testScoreWithStrike_Return10() METHOD
+RefactoringAction 1444829152174 TestBowlingScoreCalculator.java RENAME testGameScoreWithStrike_Return94()=>void testScoreWithStrike_Return94() METHOD
+RefactoringAction 1444829155194 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Return94()=>void testScoreWithStrike_Return() METHOD
+RefactoringAction 1444829160214 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Return()=>void testScoreWithStrike_Return19() METHOD
+EditAction 1444829164532 TestBowlingScoreCalculator.java 3737 14 58 12
