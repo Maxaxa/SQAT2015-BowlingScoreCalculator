@@ -197,3 +197,6 @@ UnitTestCaseAction 1444826509972 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826509973 TestBowlingScoreCalculator OK
 RefactoringAction 1444826581219 BowlingGame.java ADD int counter FIELD
 EditAction 1444826585005 BowlingGame.java 662 5 5 0
+RefactoringAction 1444826616960 TestBowlingScoreCalculator.java RENAME testGameConsitingOf10Frames_Return10()=>void testGameConsitingOf10Frames_ReturnTrue() METHOD
+RefactoringAction 1444826633982 TestBowlingScoreCalculator.java RENAME testGameConsitingOf10Frames_ReturnTrue()=>void testCheckGameConsitingOf10Frames_ReturnTrue() METHOD
+EditAction 1444826639354 TestBowlingScoreCalculator.java 2640 7 37 6
