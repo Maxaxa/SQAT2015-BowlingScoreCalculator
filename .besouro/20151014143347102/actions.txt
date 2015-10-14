@@ -81,3 +81,6 @@ RefactoringAction 1444824021223 TestBowlingScoreCalculator.java ADD void setup()
 RefactoringAction 1444824029633 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
 RefactoringAction 1444824047848 TestBowlingScoreCalculator.java ADD Frame frame FIELD
 EditAction 1444824068234 TestBowlingScoreCalculator.java 1121 5 13 4
+RefactoringAction 1444824092846 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444824092846 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1444824150502 TestBowlingScoreCalculator.java 1210 5 18 4

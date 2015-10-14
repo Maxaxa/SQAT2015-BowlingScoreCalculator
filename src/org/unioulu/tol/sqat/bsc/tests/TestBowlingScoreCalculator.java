@@ -18,7 +18,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() {
 
-		Frame frame = new Frame(2,4);
+		frame.setFirstThrow(2);
+		frame.setSecondThrow(4);
 		
 		int firstThrow = frame.getFirstThrow();
 		
@@ -29,7 +30,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testGetSecondThrowWithFirstThrowIs2AndSecondThrowIs4_Return4() {
 
-		Frame frame = new Frame(2,4);
+		frame.setFirstThrow(2);
+		frame.setSecondThrow(4);
 		
 		int secondThrow = frame.getSecondThrow();
 		
@@ -40,7 +42,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testScoreWithFirstThrowIs2AndSecondThrowIs6_Return8(){
 		
-		Frame frame = new Frame(2,6);
+		frame.setFirstThrow(2);
+		frame.setSecondThrow(6);;
 		
 		int score = frame.score();
 		
@@ -50,7 +53,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testScoreWithFirstThrowIs0AndSecondThrowIs9_Return9(){
 		
-		Frame frame = new Frame(0,9);
+		frame.setFirstThrow(0);
+		frame.setSecondThrow(9);
 		
 		int score = frame.score();
 		
