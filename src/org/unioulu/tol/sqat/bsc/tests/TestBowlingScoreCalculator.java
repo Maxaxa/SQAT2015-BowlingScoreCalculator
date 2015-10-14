@@ -114,11 +114,21 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreOfTheGameWithFramesAsArrayList_Return81(){
+	public void testScoreOfTheGameWithStandardFramesAsArrayList_Return81(){
 		
 		int gameScore = game.score();
 		
 		assertEquals(81,gameScore);
+	}
+	
+	@Test
+	public void testScoreOfTheGameWithDefinedFramesAsArrayList_Return6(){
+		List<Frame> definedframes = new ArrayList<Frame>();
+		game = new BowlingGame(definedframes);
+		game.addFrame(new Frame(1,5));
+		int gameScore = game.score();
+		
+		assertEquals(6,gameScore);
 	}
 
 }
