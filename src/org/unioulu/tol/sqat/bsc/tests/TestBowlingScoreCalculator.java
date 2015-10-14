@@ -92,7 +92,7 @@ public class TestBowlingScoreCalculator {
 		
 		
 		game.addFrame(frame);
-		//System.out.println(frames.get(0).getFirstThrow());
+		//System.out.println(game.frames.get(0).getFirstThrow());
 		assertEquals(1, frames.get(0).getFirstThrow());
 	}
 	
@@ -160,7 +160,7 @@ public class TestBowlingScoreCalculator {
 		
 		game.frames.get(0).setFirstThrow(10);
 		game.frames.get(0).setSecondThrow(0);
-		System.out.println(game.frames.get(0).getFirstThrow());
+		//System.out.println(game.frames.get(0).getFirstThrow());
 		assertEquals(10,frame.score());
 	}
 	
