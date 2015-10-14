@@ -18,7 +18,7 @@ public class TestBowlingScoreCalculator {
 	public void setupFrame(){
 		frame = new Frame(0,0);
 	}
-	@Before
+	/*@Before
 	public void setupGame(){
 		List<Frame> frames = new ArrayList<Frame>();
 		frames.add(new Frame(1,5));
@@ -31,7 +31,7 @@ public class TestBowlingScoreCalculator {
 		frames.add(new Frame(4,5));
 		frames.add(new Frame(8,1));
 		frames.add(new Frame(2,6));
-	}
+	}*/
 
 	@Test
 	public void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() {
@@ -91,6 +91,24 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame);
 		//System.out.println(frames.get(0).getFirstThrow());
 		assertEquals(1, frames.get(0).getFirstThrow());
+	}
+	
+	@Test
+	public void testGameConsitingOf10Frames_Return10(){
+		List<Frame> frames = new ArrayList<Frame>();
+		BowlingGame game = new BowlingGame(frames);
+		game.addFrame(new Frame(1,5));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(7,2));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(3,3));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(8,1));
+		game.addFrame(new Frame(2,6));
+		
+		assertEquals(10, frames.size());
 	}
 	
 
