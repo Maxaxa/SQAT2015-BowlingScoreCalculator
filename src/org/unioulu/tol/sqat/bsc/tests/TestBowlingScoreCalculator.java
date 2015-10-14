@@ -140,9 +140,9 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testIsStrikeWithFirstThrowIs1SecondThrowIs5_ReturnTrue(){
-		frame.setFirstThrow(1);
-		frame.setSecondThrow(5);
+	public void testIsStrikeWithFirstThrowIs3SecondThrowIs6_ReturnTrue(){
+		frame.setFirstThrow(3);
+		frame.setSecondThrow(6);
 		
 		assertEquals(false,frame.isStrike());
 	}
