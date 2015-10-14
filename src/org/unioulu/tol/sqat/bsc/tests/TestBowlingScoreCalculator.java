@@ -130,5 +130,13 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(6,gameScore);
 	}
+	
+	@Test
+	public void testIsStrikeWithFirstThrowIs10SecondThrowIs0_ReturnTrue(){
+		frame.setFirstThrow(10);
+		frame.setSecondThrow(0);
+		
+		assertEquals(6,frame.isStrike());
+	}
 
 }
