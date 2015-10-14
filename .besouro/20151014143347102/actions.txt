@@ -87,3 +87,18 @@ EditAction 1444824150502 TestBowlingScoreCalculator.java 1210 5 18 4
 CompilationAction 1444824150618 TestBowlingScoreCalculator.java
 CompilationAction 1444824150618 TestBowlingScoreCalculator.java
 EditAction 1444824158392 Frame.java 1120 10 12 0
+UnitTestCaseAction 1444824163037 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824163037 TestBowlingScoreCalculator OK
+RefactoringAction 1444824253411 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444824312933 TestBowlingScoreCalculator.java RENAME test=>void testGa FIELD
+RefactoringAction 1444824314452 TestBowlingScoreCalculator.java RENAME testGa=>void testGame FIELD
+RefactoringAction 1444824319971 TestBowlingScoreCalculator.java RENAME testGame=>void testBowling FIELD
+RefactoringAction 1444824321489 TestBowlingScoreCalculator.java RENAME testBowling=>void testBowlingGame FIELD
+RefactoringAction 1444824324007 TestBowlingScoreCalculator.java RENAME testBowlingGame=>void testBowlingGame() METHOD
+RefactoringAction 1444824360044 TestBowlingScoreCalculator.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1444824360044 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
+RefactoringAction 1444824788247 TestBowlingScoreCalculator.java ADD void setupGame FIELD
+RefactoringAction 1444824802786 TestBowlingScoreCalculator.java REMOVE setupGame() METHOD
+RefactoringAction 1444824807799 TestBowlingScoreCalculator.java ADD void setupGame() METHOD
+RefactoringAction 1444824811818 TestBowlingScoreCalculator.java RENAME setup()=>void setupFrame() METHOD
+EditAction 1444824909135 TestBowlingScoreCalculator.java 1672 6 29 4
