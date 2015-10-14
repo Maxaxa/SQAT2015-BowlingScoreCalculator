@@ -24,7 +24,7 @@ public class TestBowlingScoreCalculator {
 		
 		int secondThrow = frame.getSecondThrow();
 		
-		assertEquals(2, secondThrow);
+		assertEquals(4, secondThrow);
 		
 	}
 
