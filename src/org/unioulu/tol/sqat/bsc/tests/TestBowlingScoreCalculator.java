@@ -160,7 +160,7 @@ public class TestBowlingScoreCalculator {
 		
 		game.frames.get(0).setFirstThrow(10);
 		game.frames.get(0).setFirstThrow(0);
-		
+		System.out.println(game.frames.get(0).getFirstThrow());
 		assertEquals(10,frame.score());
 	}
 	

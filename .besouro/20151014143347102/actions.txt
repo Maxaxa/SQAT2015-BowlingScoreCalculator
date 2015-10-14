@@ -349,3 +349,4 @@ RefactoringAction 1444828739063 TestBowlingScoreCalculator.java RENAME testgaSco
 RefactoringAction 1444828747085 TestBowlingScoreCalculator.java RENAME testGameScoreWithStrike_Return10()=>void testGameScoreWithStrike_Return() METHOD
 RefactoringAction 1444828756108 TestBowlingScoreCalculator.java RENAME testGameScoreWithStrike_Return()=>void testGameScoreWithStrike_Return94() METHOD
 EditAction 1444828895589 TestBowlingScoreCalculator.java 3828 15 61 13
+EditAction 1444828920467 TestBowlingScoreCalculator.java 3883 15 62 13
