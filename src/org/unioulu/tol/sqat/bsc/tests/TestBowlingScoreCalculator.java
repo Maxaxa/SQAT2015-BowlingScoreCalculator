@@ -94,7 +94,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testCheckGameConsitingOf10Frames_ReturnTrue(){
+	public void testCheckGameConsitingOf10Frames_10Frames_ReturnTrue(){
 		List<Frame> frames = new ArrayList<Frame>();
 		BowlingGame game = new BowlingGame(frames);
 		game.addFrame(new Frame(1,5));
@@ -107,6 +107,17 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(new Frame(4,5));
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
+		
+		assertEquals(true, game.CheckGameConsitingOf10Frames());
+	}
+	
+	@Test
+	public void testCheckGameConsitingOf10Frames_2Frames_ReturnTrue(){
+		List<Frame> frames = new ArrayList<Frame>();
+		BowlingGame game = new BowlingGame(frames);
+		game.addFrame(new Frame(1,5));
+		game.addFrame(new Frame(3,6));
+		
 		
 		assertEquals(true, game.CheckGameConsitingOf10Frames());
 	}

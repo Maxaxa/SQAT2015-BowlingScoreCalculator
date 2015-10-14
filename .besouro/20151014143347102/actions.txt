@@ -205,3 +205,11 @@ RefactoringAction 1444826657093 TestBowlingScoreCalculator.java REMOVE CheckGame
 RefactoringAction 1444826666333 BowlingGame.java ADD Object CheckGameConsitingOf10Frames() METHOD
 EditAction 1444826677838 BowlingGame.java 738 6 6 0
 EditAction 1444826681933 TestBowlingScoreCalculator.java 2662 7 37 6
+UnitTestCaseAction 1444826682937 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826682937 TestBowlingScoreCalculator OK
+RefactoringAction 1444826692654 TestBowlingScoreCalculator.java ADD void testCheckGameConsitingOf10Frames_ReturnTrue()/2 METHOD
+RefactoringAction 1444826707701 TestBowlingScoreCalculator.java RENAME testCheckGameConsitingOf10Frames_ReturnTrue()/2=>void testCheckGameConsitingOf10Frames_10Frames_ReturnTrue() METHOD
+RefactoringAction 1444826711724 TestBowlingScoreCalculator.java RENAME testCheckGameConsitingOf10Frames_ReturnTrue()=>void testCheckGameConsitingOf10Frames__ReturnTrue() METHOD
+RefactoringAction 1444826712745 TestBowlingScoreCalculator.java RENAME testCheckGameConsitingOf10Frames__ReturnTrue()=>void testCheckGameConsitingOf10Frames_2_ReturnTrue() METHOD
+RefactoringAction 1444826714267 TestBowlingScoreCalculator.java RENAME testCheckGameConsitingOf10Frames_2_ReturnTrue()=>void testCheckGameConsitingOf10Frames_2Frames_ReturnTrue() METHOD
+EditAction 1444826714494 TestBowlingScoreCalculator.java 2986 8 42 7
