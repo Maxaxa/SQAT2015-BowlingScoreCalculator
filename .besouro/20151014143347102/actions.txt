@@ -193,3 +193,7 @@ RefactoringAction 1444826342299 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444826342300 TestBowlingScoreCalculator.java ADD void testAddFrame_FirstThrowIs1_SecondThrowIs5() METHOD
 RefactoringAction 1444826342300 TestBowlingScoreCalculator.java ADD void testGameConsitingOf10Frames_Return10() METHOD
 EditAction 1444826498309 TestBowlingScoreCalculator.java 2631 7 37 6
+UnitTestCaseAction 1444826509972 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826509973 TestBowlingScoreCalculator OK
+RefactoringAction 1444826581219 BowlingGame.java ADD int counter FIELD
+EditAction 1444826585005 BowlingGame.java 662 5 5 0

@@ -7,13 +7,14 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	
+	int counter =0;
 	public BowlingGame(List<Frame> frames){
 		this.frames = frames;
 	}
 	
-	public void addFrame(Frame frame){
+	public int addFrame(Frame frame){
 		frames.add(frame);
+		return counter;
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
