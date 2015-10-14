@@ -23,6 +23,14 @@ public class Frame {
 		return score;
 	}
 
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
+	}
+
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
+	}
+
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		//to be implemented
