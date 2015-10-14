@@ -88,7 +88,7 @@ public class TestBowlingScoreCalculator {
 		
 		game.addFrame(frame);
 		
-		assertEquals(,)
+		assertEquals(1, frames.get(1));
 	}
 	
 
