@@ -216,3 +216,10 @@ EditAction 1444826714494 TestBowlingScoreCalculator.java 2986 8 42 7
 UnitTestCaseAction 1444826717332 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826717332 TestBowlingScoreCalculator.testCheckGameConsitingOf10Frames_2Frames_ReturnTrue OK
 EditAction 1444826722284 TestBowlingScoreCalculator.java 2987 8 42 7
+UnitTestCaseAction 1444826723224 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444826723225 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444826755100 BowlingGame.java REMOVE counter FIELD
+RefactoringAction 1444826764626 BowlingGame.java ADD int counter FIELD
+RefactoringAction 1444826781167 BowlingGame.java REMOVE counter FIELD
+RefactoringAction 1444826819279 BowlingGame.java RENAME CheckGameConsitingOf10Frames()=>boolean CheckGameConsitingOf10Frames(List<Frame>) METHOD
+EditAction 1444826868970 BowlingGame.java 805 6 6 0

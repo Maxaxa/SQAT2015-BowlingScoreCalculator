@@ -7,9 +7,10 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	int counter =0;
+	
 	public BowlingGame(List<Frame> frames){
 		this.frames = frames;
+		
 	}
 	
 	public int addFrame(Frame frame){
@@ -31,8 +32,11 @@ public class BowlingGame {
 		return false;
 	}
 
-	public boolean CheckGameConsitingOf10Frames() {
-		
-		return true;
+	public boolean CheckGameConsitingOf10Frames(List<Frame> frames) {
+		if(frames.size() != 10){
+		return false;
+		}else{
+			return	true;			
+		}
 	}
 }
