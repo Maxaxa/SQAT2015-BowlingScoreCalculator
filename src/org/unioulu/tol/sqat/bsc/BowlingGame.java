@@ -33,10 +33,10 @@ public class BowlingGame {
 	}
 
 	public boolean CheckGameConsitingOf10Frames(List<Frame> frames) {
-		if(frames.size() != 10){
-		return false;
+		if(frames.size() == 10){
+		return true;
 		}else{
-			return	true;			
+			return	false;			
 		}
 	}
 }
