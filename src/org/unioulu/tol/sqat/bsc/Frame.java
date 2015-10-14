@@ -42,8 +42,11 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		if(score()==10 && getFirstThrow < 10 && getFirstThrow >1){ //more is necessarz
+			return true;
+			}else{
+				return false;
+			}
 	}
 
 	//return whether this is the last frame of the match
