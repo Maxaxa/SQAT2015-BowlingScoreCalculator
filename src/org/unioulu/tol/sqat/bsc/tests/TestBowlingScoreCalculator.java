@@ -89,6 +89,7 @@ public class TestBowlingScoreCalculator {
 		List<Frame> frames = new ArrayList<Frame>();
 		
 		game.addFrame(frame);
+		System.out.println(frame.getFirstThrow());
 		System.out.println(frames.get(0).getFirstThrow());
 		assertEquals(1, frames.get(0).getFirstThrow());
 	}
