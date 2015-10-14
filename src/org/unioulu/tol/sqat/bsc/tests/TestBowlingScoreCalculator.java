@@ -78,6 +78,10 @@ public class TestBowlingScoreCalculator {
 		assertEquals(9, score);
 	}
 	
+	@Test
+	public void testAddFrame_FirstThrowIs1_SecondThrowIs5(){
+		
+	}
 	
 
 }
