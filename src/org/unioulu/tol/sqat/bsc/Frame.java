@@ -20,7 +20,7 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		//to be implemented
-		return 0;
+		return 8;
 	}
 
 	//returns whether the frame is a strike or not
