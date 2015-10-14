@@ -12,9 +12,19 @@ public class TestBowlingScoreCalculator {
 
 		Frame frame = new Frame(2,4);
 		
-		int firstThrow = getFirstThrow();
+		int firstThrow = frame.getFirstThrow();
 		
 		assertEquals(2, firstThrow);
+		
+	}
+	@Test
+	public void testGetSecondThrowWithFirstThrowIs2AndSecondThrowIs4_Return4() {
+
+		Frame frame = new Frame(2,4);
+		
+		int secondThrow = frame.getSecondThrow();
+		
+		assertEquals(2, secondThrow);
 		
 	}
 
