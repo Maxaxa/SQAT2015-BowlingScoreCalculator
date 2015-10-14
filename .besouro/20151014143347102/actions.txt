@@ -204,3 +204,4 @@ RefactoringAction 1444826652461 TestBowlingScoreCalculator.java ADD Object Check
 RefactoringAction 1444826657093 TestBowlingScoreCalculator.java REMOVE CheckGameConsitingOf10Frames() METHOD
 RefactoringAction 1444826666333 BowlingGame.java ADD Object CheckGameConsitingOf10Frames() METHOD
 EditAction 1444826677838 BowlingGame.java 738 6 6 0
+EditAction 1444826681933 TestBowlingScoreCalculator.java 2662 7 37 6

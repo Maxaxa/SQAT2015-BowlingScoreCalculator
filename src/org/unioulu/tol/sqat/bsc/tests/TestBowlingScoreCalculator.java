@@ -108,7 +108,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
 		
-		assertEquals(true, frames.size());
+		assertEquals(true, game.CheckGameConsitingOf10Frames());
 	}
 	
 
