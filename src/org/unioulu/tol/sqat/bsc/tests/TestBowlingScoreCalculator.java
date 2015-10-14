@@ -136,7 +136,7 @@ public class TestBowlingScoreCalculator {
 		frame.setFirstThrow(10);
 		frame.setSecondThrow(0);
 		
-		assertEquals(6,frame.isStrike());
+		assertEquals(true,frame.isStrike());
 	}
 
 }
