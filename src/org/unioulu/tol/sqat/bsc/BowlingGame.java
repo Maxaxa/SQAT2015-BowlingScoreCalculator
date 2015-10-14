@@ -8,7 +8,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){
+	public BowlingGame(List<Frame> frames){
 		this.frames = frames;
 	}
 	

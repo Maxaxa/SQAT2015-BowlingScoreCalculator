@@ -81,15 +81,15 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame_FirstThrowIs1_SecondThrowIs5(){
-		BowlingGame game = new BowlingGame();
+		List<Frame> frames = new ArrayList<Frame>();
+		BowlingGame game = new BowlingGame(frames);
 		
 		frame.setFirstThrow(1);
 		frame.setSecondThrow(5);
 		
-		List<Frame> frames = new ArrayList<Frame>();
 		
 		game.addFrame(frame);
-		System.out.println(frames.get(0).getFirstThrow());
+		//System.out.println(frames.get(0).getFirstThrow());
 		assertEquals(1, frames.get(0).getFirstThrow());
 	}
 	

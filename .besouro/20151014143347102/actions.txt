@@ -162,3 +162,8 @@ EditAction 1444826100001 TestBowlingScoreCalculator.java 2121 7 37 5
 UnitTestCaseAction 1444826102498 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444826102498 TestBowlingScoreCalculator FAIL
 EditAction 1444826122833 TestBowlingScoreCalculator.java 2075 7 36 5
+RefactoringAction 1444826159106 BowlingGame.java RENAME BowlingGame()=>BowlingGame(List<Frame>) METHOD
+CompilationAction 1444826160572 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444826185459 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826185460 TestBowlingScoreCalculator OK
+EditAction 1444826192664 TestBowlingScoreCalculator.java 2083 7 35 5
