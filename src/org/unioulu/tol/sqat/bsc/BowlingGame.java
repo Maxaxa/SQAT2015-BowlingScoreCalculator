@@ -26,7 +26,7 @@ public class BowlingGame {
 	public int score(){
 		int gameScore =0;
 		for(Frame f: frames){
-			
+			frame.score();
 		}
 		return gameScore;
 	}
