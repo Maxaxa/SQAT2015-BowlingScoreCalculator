@@ -243,3 +243,11 @@ RefactoringAction 1444827093678 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444827101204 TestBowlingScoreCalculator.java ADD void setupGame() METHOD
 RefactoringAction 1444827112275 TestBowlingScoreCalculator.java REMOVE testScoreOfTheGameWith FIELD
 EditAction 1444827137401 TestBowlingScoreCalculator.java 2690 9 42 7
+CompilationAction 1444827137538 TestBowlingScoreCalculator.java
+CompilationAction 1444827137539 TestBowlingScoreCalculator.java
+RefactoringAction 1444827158450 TestBowlingScoreCalculator.java ADD Bowling game FIELD
+RefactoringAction 1444827171544 TestBowlingScoreCalculator.java REMOVE game FIELD
+RefactoringAction 1444827172562 TestBowlingScoreCalculator.java ADD Bowling game FIELD
+CompilationAction 1444827220868 TestBowlingScoreCalculator.java
+CompilationAction 1444827220868 TestBowlingScoreCalculator.java
+EditAction 1444827225229 TestBowlingScoreCalculator.java 2711 9 42 7

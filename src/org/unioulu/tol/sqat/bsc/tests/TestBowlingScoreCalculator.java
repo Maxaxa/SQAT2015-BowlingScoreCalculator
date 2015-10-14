@@ -13,6 +13,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 	
 	private Frame frame;
+	private BowlingGame game;
 	
 	@Before
 	public void setupFrame(){
@@ -21,7 +22,7 @@ public class TestBowlingScoreCalculator {
 	@Before
 	public void setupGame(){
 		List<Frame> frames = new ArrayList<Frame>();
-		BowlingGame game = new BowlingGame(frames);
+		game = new BowlingGame(frames);
 		game.addFrame(new Frame(1,5));
 		game.addFrame(new Frame(3,6));
 		game.addFrame(new Frame(7,2));
@@ -98,7 +99,7 @@ public class TestBowlingScoreCalculator {
 	public void testCheckGameConsitingOf10Frames_10Frames_ReturnTrue(){
 		
 		
-		assertEquals(true, game.CheckGameConsitingOf10Frames(frames));
+		assertEquals(true, game.CheckGameConsitingOf10Frames(game.frames));
 	}
 	
 	@Test
