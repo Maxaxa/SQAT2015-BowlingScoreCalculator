@@ -117,3 +117,4 @@ RefactoringAction 1444824998226 TestBowlingScoreCalculator.java RENAME testAddFr
 EditAction 1444825045928 TestBowlingScoreCalculator.java 1747 7 29 4
 RefactoringAction 1444825090865 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 EditAction 1444825192223 TestBowlingScoreCalculator.java 1918 7 33 4
+EditAction 1444825218828 TestBowlingScoreCalculator.java 1941 7 29 4
