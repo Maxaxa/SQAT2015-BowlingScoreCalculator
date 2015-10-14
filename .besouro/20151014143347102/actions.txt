@@ -22,3 +22,7 @@ RefactoringAction 1444823382039 TestBowlingScoreCalculator.java RENAME testGetFi
 RefactoringAction 1444823383053 TestBowlingScoreCalculator.java RENAME testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs()=>void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4() METHOD
 RefactoringAction 1444823391579 TestBowlingScoreCalculator.java RENAME testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4()=>void testGetFirstThrowWithFirstThrowIs2AndSecondThrowIs4_Return2() METHOD
 EditAction 1444823462156 TestBowlingScoreCalculator.java 402 1 3 1
+CompilationAction 1444823462657 TestBowlingScoreCalculator.java
+RefactoringAction 1444823498972 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444823498973 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1444823508198 Frame.java 914 8 9 0
