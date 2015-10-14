@@ -341,3 +341,11 @@ RefactoringAction 1444828689286 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444828690806 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Re()=>void testScoreWithStrike_Return() METHOD
 RefactoringAction 1444828691828 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Return()=>void testScoreWithStrike_Return10() METHOD
 EditAction 1444828718628 TestBowlingScoreCalculator.java 3636 14 58 12
+UnitTestCaseAction 1444828721207 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828721207 TestBowlingScoreCalculator OK
+RefactoringAction 1444828731021 TestBowlingScoreCalculator.java ADD void testScoreWithStrike_Return10()/2 METHOD
+RefactoringAction 1444828735543 TestBowlingScoreCalculator.java RENAME testScoreWithStrike_Return10()/2=>void testgaScoreWithStrike_Return10() METHOD
+RefactoringAction 1444828739063 TestBowlingScoreCalculator.java RENAME testgaScoreWithStrike_Return10()=>void testGameScoreWithStrike_Return10() METHOD
+RefactoringAction 1444828747085 TestBowlingScoreCalculator.java RENAME testGameScoreWithStrike_Return10()=>void testGameScoreWithStrike_Return() METHOD
+RefactoringAction 1444828756108 TestBowlingScoreCalculator.java RENAME testGameScoreWithStrike_Return()=>void testGameScoreWithStrike_Return94() METHOD
+EditAction 1444828895589 TestBowlingScoreCalculator.java 3828 15 61 13

@@ -154,5 +154,15 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(10,frame.score());
 	}
+	
+	@Test
+	public void testGameScoreWithStrike_Return94(){
+		
+		game.frames.get(0).setFirstThrow(10);
+		game.frames.get(0).setFirstThrow(0);
+		
+		assertEquals(10,frame.score());
+	}
+	
 
 }
