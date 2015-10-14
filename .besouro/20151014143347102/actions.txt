@@ -59,3 +59,10 @@ EditAction 1444823784526 TestBowlingScoreCalculator.java 816 3 9 3
 UnitTestCaseAction 1444823787957 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823787957 TestBowlingScoreCalculator FAIL
 EditAction 1444823803815 Frame.java 914 8 9 0
+UnitTestCaseAction 1444823808907 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823808908 TestBowlingScoreCalculator OK
+RefactoringAction 1444823827995 TestBowlingScoreCalculator.java ADD void setup() METHOD
+RefactoringAction 1444823838254 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444823880114 TestBowlingScoreCalculator.java REMOVE setup() METHOD
+RefactoringAction 1444823885138 TestBowlingScoreCalculator.java REMOVE import org.junit.Before IMPORT
+EditAction 1444823886212 TestBowlingScoreCalculator.java 821 3 9 3
