@@ -223,3 +223,7 @@ RefactoringAction 1444826764626 BowlingGame.java ADD int counter FIELD
 RefactoringAction 1444826781167 BowlingGame.java REMOVE counter FIELD
 RefactoringAction 1444826819279 BowlingGame.java RENAME CheckGameConsitingOf10Frames()=>boolean CheckGameConsitingOf10Frames(List<Frame>) METHOD
 EditAction 1444826868970 BowlingGame.java 805 6 6 0
+CompilationAction 1444826869111 BowlingGame.java
+CompilationAction 1444826869112 TestBowlingScoreCalculator.java
+CompilationAction 1444826880409 TestBowlingScoreCalculator.java
+EditAction 1444826890986 TestBowlingScoreCalculator.java 2993 8 42 7

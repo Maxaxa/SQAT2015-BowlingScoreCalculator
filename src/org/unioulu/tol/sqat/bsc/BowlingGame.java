@@ -13,9 +13,9 @@ public class BowlingGame {
 		
 	}
 	
-	public int addFrame(Frame frame){
+	public void addFrame(Frame frame){
 		frames.add(frame);
-		return counter;
+		
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
