@@ -30,4 +30,9 @@ public class BowlingGame {
 		//to be implemented
 		return false;
 	}
+
+	public boolean CheckGameConsitingOf10Frames() {
+		
+		return true;
+	}
 }
