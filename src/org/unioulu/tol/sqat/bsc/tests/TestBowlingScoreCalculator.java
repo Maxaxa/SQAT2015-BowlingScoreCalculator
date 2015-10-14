@@ -113,7 +113,12 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, game.CheckGameConsitingOf10Frames(frames));
 	}
 	
-	/*@Test
-	public void testScoreOfTheGameWith*/
+	@Test
+	public void testScoreOfTheGameWithFramesAsArrayList_Return81(){
+		
+		int gameScore = game.score();
+		
+		assertEquals(81,gameScore);
+	}
 
 }
