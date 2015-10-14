@@ -276,3 +276,6 @@ RefactoringAction 1444827460906 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444827463427 TestBowlingScoreCalculator.java RENAME testScoreOfTheGameWithdeFramesAsArrayList_Return6()=>void testScoreOfTheGameWithdefinedFramesAsArrayList_Return6() METHOD
 RefactoringAction 1444827465950 TestBowlingScoreCalculator.java RENAME testScoreOfTheGameWithdefinedFramesAsArrayList_Return6()=>void testScoreOfTheGameWithDefinedFramesAsArrayList_Return6() METHOD
 EditAction 1444827485279 TestBowlingScoreCalculator.java 3105 11 49 9
+UnitTestCaseAction 1444827488391 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444827488392 TestBowlingScoreCalculator FAIL
+EditAction 1444827594167 BowlingGame.java 834 6 7 0

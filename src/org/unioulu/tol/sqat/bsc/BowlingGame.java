@@ -24,8 +24,11 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		
-		return 81;
+		int gameScore =0;
+		for(Frame f: frames){
+			
+		}
+		return gameScore;
 	}
 	
 	public boolean isNextFrameBonus(){
