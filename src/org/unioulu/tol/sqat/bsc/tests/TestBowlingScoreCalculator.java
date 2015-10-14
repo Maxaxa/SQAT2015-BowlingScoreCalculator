@@ -41,5 +41,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(8, score);
 	}
 	
+	@Test
+	public void testScoreWithFirstThrowIs0AndSecondThrowIs9_Return9(){
+		
+		Frame frame = new Frame(0,9);
+		
+		int score = frame.score();
+		
+		assertEquals(9, score);
+	}
+	
 
 }
