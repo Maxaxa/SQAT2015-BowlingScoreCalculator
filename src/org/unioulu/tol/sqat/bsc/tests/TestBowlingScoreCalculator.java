@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
@@ -80,7 +81,12 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame_FirstThrowIs1_SecondThrowIs5(){
+		BowlingGame game = new BowlingGame();
 		
+		frame.setFirstThrow(1);
+		frame.setSecondThrow(5);
+		
+		game.addFrame(frame);
 	}
 	
 
